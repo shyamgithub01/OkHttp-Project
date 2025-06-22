@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+}
+
+application {
+    mainClass = 'com.yourpackage.Main'  // Change to your actual main class with package
+}
+
+
+application {
+    mainClass = 'com.yourpackage.Main'  // Change to your actual main class with package
+}
